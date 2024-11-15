@@ -1,0 +1,125 @@
+.tr {
+    /* background-color: rgb(255, 255, 255); */
+    padding: 80px 100px 0px 100px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.text-tr {
+
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+    padding: 20px 20px;
+    border-radius: 40px;
+}
+
+.text-tr h1 {
+    font-family: Poppins;
+    font-size: 38px;
+    font-weight: 600;
+    line-height: 72px;
+    text-align: left;
+    color: #FF7043;
+    padding: 5px 20px;
+}
+
+.text-tr button {
+    font-family: Poppins;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 21px;
+    text-align: center;
+    padding: 16px 23px;
+    border: none;
+    border-radius: 40px;
+    background-color: #FF7043;
+    color: white;
+    display: flex;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+
+.text-tr p {
+    font-family: Poppins;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 36px;
+    color: rgba(0, 0, 0, 0.656);
+    padding: 10px 20px;
+}
+
+
+
+.tosh {
+    border-radius: 40px;
+    width: 500px;
+    height: 500px;
+}
+
+@media (max-width:1340px) {
+    .tr {
+        display: block;
+    }
+
+    .tosh {
+        margin-top: 10px;
+    }
+
+    .tr-res {
+        display: flex;
+        justify-content: center;
+    }
+}
+
+@media (max-width:650px) {
+    .tosh {
+        width: 400px;
+        height: 400px;
+        display: flex;
+        margin: 0 auto;
+    }
+}
+
+@media (max-width:500px) {
+    .tosh {
+        width: 300px;
+        height: 300px;
+    }
+
+    .tr {
+        padding: 10px 10px 10px 10px;
+    }
+}
+
+@media (max-width:450px) {
+    .tosh {
+        width: 300px;
+        height: 300px;
+        margin-top: 20px;
+    }
+
+    .tr {
+        padding: 10px 10px 10px 0px;
+    }
+
+    .text-tr h1 {
+        font-size: 30px;
+        line-height: 60px;
+    }
+}
+
+@media (max-width:300px) {
+    .tosh {
+        width: 200px;
+        height: 200px;
+        margin-top: 20px;
+    }
+
+    .tr {
+        padding: 10px 10px 10px 0px;
+    }
+
+    .text-tr h1 {
+        font-size: 30px;
+        line-height: 60px;
+    }
+}

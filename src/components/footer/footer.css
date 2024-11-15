@@ -1,0 +1,61 @@
+/* Footer.css */
+.footer {
+    background-color: #ff6f43d5;
+    color: white;
+    /* position: absolute;   */
+
+    background-image: linear-gradient(rgba(248, 118, 42, 0.5), rgba(238, 119, 40, 0.5)), url('../../images/qrft1.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+}
+
+
+.footer-btn {
+    background-color: white;
+    color: #FF7043;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 20px;
+}
+
+.footer-btn:hover {
+    transition: 0.5s;
+    background-color: #FF7043;
+    color: aqua;
+}
+
+
+.footer {
+    background-color: #FF7043;
+    color: white;
+    text-align: center;
+    padding: 20px 10px;
+    position: relative;
+}
+
+
+.footer-btn {
+    background-color: white;
+    color: #FF7043;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.footer-btn:hover {
+    background-color: #FF7043;
+}
+
+
+
+.footer-bottom {
+    font-size: 14px;
+    padding-top: 25px;
+}

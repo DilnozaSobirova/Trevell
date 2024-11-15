@@ -1,0 +1,111 @@
+.location-card-container {
+    display: flex;
+    align-items: center;
+    border-radius: 10px;
+    padding: 30px;
+}
+
+.harita {
+    border-radius: 20px;
+}
+
+.load {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 70px;
+    padding-bottom: 50px;
+}
+
+.booking-form-container {
+    width: 100%;
+    /* max-width: 600px; */
+    margin: auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.booking-form-container h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.booking-form-container h2 span {
+    color: #FF7043;
+}
+
+.booking-form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.form-row {
+    display: flex;
+    gap: 20px;
+}
+
+.form-group {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.form-group label {
+    font-size: 14px;
+    margin-bottom: 5px;
+}
+
+.form-group input,
+.form-group select {
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+button[type="submit"] {
+    padding: 12px;
+    background-color: #FF7043;
+    color: white;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button[type="submit"]:hover {
+    background-color: #FF7043;
+}
+
+@media (max-width:1390px) {
+    .load {
+        display: block;
+    }
+
+    .res-lod {
+        display: flex;
+        justify-content: center;
+    }
+}
+
+
+@media (max-width:800px) {
+    .location-card-container {
+        width: 50%;
+        padding: 0;
+        margin: 0;
+    }
+
+    .booking-form-container {
+        width: 500px;
+    }
+}
+
+@media (max-width:600px) {
+
+    .location-card-container {
+        display: none;
+    }
+}

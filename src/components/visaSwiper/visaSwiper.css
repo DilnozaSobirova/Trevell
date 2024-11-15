@@ -1,0 +1,56 @@
+body {
+    position: relative;
+    /* height: 100%; */
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Sour+Gummy:ital,wght@0,100..900;1,100..900&display=swap');
+
+.swiper-two img {
+    display: flex;
+    margin: 0 auto;
+    /* margin-top: 100px; */
+    width: 100%;
+    height: 700px;
+    object-fit: cover;
+    filter: brightness(0.7);
+    border-radius: 22px;
+    /* position: absolute; */
+    z-index: 11;
+    background-position: center;
+    background-size: cover;
+
+}
+
+
+.swiper-two {
+    background-image: none;
+    box-shadow: none;
+}
+
+.swiper-two h1 {
+    font-weight: 600;
+    font-size: 72px;
+    line-height: 30px;
+    font-family: "Sour Gummy";
+    /* margin-top: 1000px; */
+    /* margin-bottom: -120px; */
+    position: relative;
+    top: 25pc;
+    color: rgb(227, 227, 227);
+    z-index: 10;
+    text-align: center;
+}
+
+.swiper-two p {
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 30px;
+    font-family: "Sour Gummy";
+    /* margin-top: 1000px; */
+    /* margin-bottom: -120px; */
+    position: relative;
+    top: 30pc;
+    color: rgb(238, 236, 236);
+    z-index: 10;
+    text-align: center;
+}

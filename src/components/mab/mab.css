@@ -1,0 +1,84 @@
+.mabSlider {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+
+.nav-button {
+    background: none;
+    border: none;
+    font-size: 2em;
+    color: #17a2b8;
+    cursor: pointer;
+    transition: color 0.3s ease;
+}
+
+.nav-button:hover {
+    color: #138496;
+}
+
+.slide-content {
+    background-color: #fff;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 300px;
+    text-align: center;
+    margin: 0 20px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.slide-content:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+}
+
+.slide-content h2 {
+    font-size: 1.5em;
+    margin-bottom: 0.5em;
+}
+
+.slide-content p {
+    color: #666;
+    margin-bottom: 1em;
+}
+
+.map-location {
+    font-size: 0.9em;
+    color: #007bff;
+    font-weight: bold;
+    margin-bottom: 1em;
+}
+
+.slide-content h4 {
+    font-size: 1.1em;
+    margin-bottom: 0.5em;
+    font-weight: bold;
+}
+
+.slide-content ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0 0 1em;
+}
+
+.slide-content ul li {
+    color: #666;
+    margin-bottom: 0.5em;
+}
+
+.book-button {
+    background-color: #17a2b8;
+    border: none;
+    border-radius: 25px;
+    color: #fff;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 1em;
+    transition: background-color 0.3s ease;
+}
+
+.book-button:hover {
+    background-color: #138496;
+}

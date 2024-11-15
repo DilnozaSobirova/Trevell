@@ -1,0 +1,116 @@
+.metro {
+    text-align: center;
+    background-image: linear-gradient(rgba(30, 29, 29, 0.5), rgba(9, 9, 9, 0.5)), url('../../images/metrro.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 80%;
+    padding: 50px;
+    margin-top: 20px;
+}
+
+.metro-header h1 {
+    padding-top: 70px;
+    font-family: Poppins;
+    font-size: 76px;
+    font-weight: bold;
+    color: white;
+}
+
+.metro-header p {
+    font-family: Poppins;
+    font-size: 25px;
+    color: white;
+    font-weight: 500;
+    padding-top: 80px;
+}
+
+
+.metro-header button {
+    margin-top: 80px;
+    font-family: Poppins;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 27px;
+    text-align: left;
+    color: white;
+    background-color: #FF7043;
+    border: none;
+    padding: 15px 30px;
+    border-radius: 35px;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+}
+
+.metro-header button:hover {
+    transition: 0.5s ease;
+    background-color: #d93f10;
+    color: aquamarine;
+}
+
+.contact-card {
+    margin-top: 35px;
+    background: white;
+    color: #333;
+    padding: 25px;
+    border-radius: 10px;
+    width: 400px;
+    height: 200px;
+    text-align: center;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+
+.contact-card h6 {
+    font-family: Poppins;
+    font-weight: 600;
+    font-size: 16px;
+}
+
+.contact-card p {
+    font-family: Poppins;
+    font-weight: 400;
+    font-size: 14px;
+    color: #FF7043;
+}
+
+.phone i {
+    border: 1px solid #FF7043;
+    border-radius: 50%;
+    padding: 20px;
+    font-size: 27px;
+    color: #FF7043;
+    margin-bottom: 30px;
+}
+
+.contact-info {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 100px;
+}
+
+
+@media (max-width:1320px) {
+    .metro {
+        padding: 15px;
+    }
+}
+
+@media (max-width:1250px) {
+    .metro {
+        padding: 10px;
+    }
+
+    .contact-card {
+        width: 250px;
+    }
+}
+
+@media (max-width:800px) {
+    .contact-info {
+        display: block;
+    }
+
+    .res-cars {
+        display: flex;
+        justify-content: center;
+
+    }
+}

@@ -1,0 +1,199 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+.header-secsion {
+    background-color: #FF7043;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 90px;
+    align-items: center;
+    position: fixed;
+    z-index: 500;
+    width: 100%;
+    transition: top 0.5s ease
+}
+
+.logo h2 {
+    font-family: Poppins;
+    font-size: 48px;
+    font-weight: 900;
+    line-height: 72px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #fcfafa;
+}
+
+.pages {
+    display: flex;
+    gap: 25px;
+}
+
+.pages li a {
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #FFFFFF;
+}
+
+.pages li:hover a {
+    color: aqua;
+    transition: 0.3s;
+}
+
+.language button {
+    background: transparent;
+    border: none;
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #FFFFFF;
+}
+
+.language {
+    display: flex;
+    gap: 10px;
+}
+
+.language button:active {
+    transition: 0.1s;
+    color: #020000;
+}
+
+.bars {
+    background: transparent;
+    color: #FFFFFF;
+    border: none;
+    font-size: 15px;
+    display: none;
+}
+
+.nav-bar {
+    top: 0;
+    left: 0;
+    position: absolute;
+    padding: 0;
+    width: 100%;
+    height: 550px;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+    border-radius: 20px;
+    border: 1px solid #333;
+    transform: translateX(-110px);
+}
+
+
+
+.pagess li a {
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #FFFFFF;
+}
+
+.pagess li:hover a {
+    color: aqua;
+    transition: 0.3s;
+}
+
+.pagess {
+    padding-bottom: 25px;
+}
+
+.languagee {
+    display: flex;
+    gap: 10px;
+}
+
+.languagee button {
+    background: transparent;
+    border: none;
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #FFFFFF;
+}
+
+
+.languagee button:active {
+    transition: 0.1s;
+    color: #020000;
+}
+
+.close {
+    background: transparent;
+    border: none;
+    font-size: 20px;
+    color: #FFFF;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 20px;
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+.modal-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+
+@media (max-width:850px) {
+
+    .pages,
+    .language {
+        display: none;
+    }
+
+    .bars {
+        display: block;
+        font-size: 25px;
+    }
+
+    .nav-bar {
+        transition: 1s;
+        transform: translateX(0px);
+    }
+}
+
+
+
+
+@media (max-width:700px) {
+    .header-secsion {
+        padding: 0px 30px;
+    }
+
+    .logo h2 {
+        font-size: 30px;
+    }
+}
+
+@media (max-width:400px) {
+    .header-secsion {
+        padding: 0px 10px;
+    }
+
+    .logo h2 {
+        font-size: 25px;
+    }
+}
